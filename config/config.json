@@ -1,0 +1,8 @@
+{
+    "name": "Razped WaBot",
+    "author": "UllungArt",
+    "prefix": "!",
+    "timezone": "Asia/Makassar",
+    "groups": true,
+    "log": true
+}
