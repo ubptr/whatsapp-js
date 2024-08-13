@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 51453
 const { createServer } = require('node:http');
 const http = require('http');
 const fs = require("fs");
@@ -14,7 +14,7 @@ const qrcode = require('qrcode');
 
 const io = require('socket.io')(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "http://localhost:51453",
         methods: ["GET", "POST"],
         transports: ['websocket', 'polling'],
         credentials: true
